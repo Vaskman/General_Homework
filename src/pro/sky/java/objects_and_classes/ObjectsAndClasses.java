@@ -11,7 +11,7 @@ public class ObjectsAndClasses {
         Author romanSurgikov = new Author("Роман", "Cуржиков", "Евгеньевич");
         separation();
         System.out.println(dollOnTheThrone.getBookName());
-        System.out.println(dollOnTheThrone.getAuthorName());
+        System.out.println(dollOnTheThrone.getAuthor());
         dollOnTheThrone.setPublishingYear(2023);
         System.out.println(dollOnTheThrone.getPublishingYear());
         separation();
@@ -20,7 +20,7 @@ public class ObjectsAndClasses {
         System.out.println(romanSurgikov.getAuthorPatronymic());
         separation();
         System.out.println(theWisdomOfCrowds.getBookName());
-        System.out.println(theWisdomOfCrowds.getAuthorName());
+        System.out.println(theWisdomOfCrowds.getAuthor());
         theWisdomOfCrowds.setPublishingYear(2020);
         System.out.println(theWisdomOfCrowds.getPublishingYear());
         separation();

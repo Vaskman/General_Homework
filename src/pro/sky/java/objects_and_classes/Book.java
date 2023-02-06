@@ -1,18 +1,18 @@
 package pro.sky.java.objects_and_classes;
 public class Book {
-    private String authorName;
+    private String author;
     private String bookName;
     private int publishingYear;
-    public Book (String authorName,String bookName,int publishingYear) {
-        this.authorName=authorName;
+    public Book (String author,String bookName,int publishingYear) {
+        this.author=author;
         this.bookName=bookName;
         this.publishingYear=publishingYear;
     }
     public String getBookName() {
         return this.bookName;
     }
-    public String getAuthorName() {
-        return this.authorName;
+    public String getAuthor() {
+        return this.author;
     }
     public int getPublishingYear() {
         return this.publishingYear;
