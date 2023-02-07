@@ -17,4 +17,7 @@ public class Author {
     public String getAuthorPatronymic() {
         return this.authorPatronymic;
     }
+    public String toString(){
+        return this.getAuthorFirstName()+" " + this.getAuthorLastName()+" " +this.getAuthorPatronymic();
+    }
 }
