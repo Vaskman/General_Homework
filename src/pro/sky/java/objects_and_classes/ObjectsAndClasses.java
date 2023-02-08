@@ -18,5 +18,6 @@ public class ObjectsAndClasses {
         dollOnTheThrone.setPublishingYear(2023);
         System.out.println(dollOnTheThrone.getPublishingYear());
         separation();
+        System.out.println(theWisdomOfCrowds.getAuthor());
     }
 }
